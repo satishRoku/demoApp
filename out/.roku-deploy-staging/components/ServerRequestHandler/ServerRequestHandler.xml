@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ServerRequestHandler" extends="Task">
+	<script type="text/brightscript" uri="pkg:/components/ServerRequestHandler/ServerRequestHandler.brs"/>
+	<script type="text/brightscript" uri="pkg:/source/utills.brs"/>
+	<interface>
+		<field id="uri" type="string" alwaysNotify="true" />
+		
+		<field id="contentType" type="string" value="json" alwaysNotify="true" />
+		<field id="content" type="string" value="" alwaysNotify="true" />
+		<field id="headerInfo" type="assocarray" alwaysNotify="true"/>
+		<field id="requestType" type="string" value="Get" alwaysNotify="true"/>
+		<field id="param" type="string" value ="" alwaysNotify="true"/>
+		<field id="responseCode" type="int" alwaysNotify="true"/>
+	</interface>
+</component>

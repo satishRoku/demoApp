@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene"> 
+    <interface>
+        <field id="deepLink" type="assocArray" alwaysNotify="true"/>
+    </interface>
+    <script type="text/brightscript" uri="MainScene.brs"/>
+    <script type="text/brightscript" uri="../UILogic/ScreenStackUILogic.brs"/>
+    <script type="text/brightscript" uri="../UILogic/HomeScreenLogic.brs"/>
+    <script type="text/brightscript" uri="../UILogic/DetailsScreenLogic.brs"/>
+
+    <script type="text/brightscript" uri="pkg:/source/utills.brs"/>
+	<children>
+        <Group id="screenContainer"> </Group> 
+        <BusySpinner id="busySpinner" visible="false"/>
+        <Group id="videoContainer" translation="[0, 0]" visible="false">
+			<Rectangle id="videoPlayerContainer" width="0" height="0" color="#000000" />
+			<Label id="videoTitle" text="Video Title" width="960" height="80" translation="[50, 50]" />
+		</Group>
+    </children>
+</component>

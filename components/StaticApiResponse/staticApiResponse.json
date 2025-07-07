@@ -1,0 +1,214 @@
+{
+  "Features": [
+    {
+      "id": 704,
+      "name": "CONSTANT FLEETING",
+      "rating": 0,
+      "description": "A poignant exploration of the complex dynamics of family relationships, addiction, grief, and the enduring power of love. At its heart is the story of a decades-long estrangement between an ailing mother and her daughter, which finds unexpected revival through the birth of a grandson.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/constant-fleeting-1_1280x720.jpg",
+      "dates": "Mar 24, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1053928716.m3u8?s=4d7ff88cd0ddbd2344fb3a6e77e7796bdd4500cf&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050641470.m3u8?s=6cd17c2c9c04cb87b43151ae8f390002beeda721&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 705,
+      "name": "DOWN TO THE FELT",
+      "rating": 0,
+      "description": "One gambler. One hitman. Two weeks. With the deck stacked against him and life calling his bluff, a compulsive gambler makes a desperate deal with a psychopathic hitman to kill him in two weeks. But then, life suddenly starts dealing him aces.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/down-to-the-felt-1_1280x720.jpg",
+      "dates": "Mar 25, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1056877221.m3u8?s=6f19762f499a9cd0de339f6b08f418b68b8853fb&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050641277.m3u8?s=d698128a860af3d6eb2e7c16321fb6587b8ee043&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 706,
+      "name": "DARK MY LIGHT",
+      "rating": 0,
+      "description": "A genre-bending sci-fi tale following Mitchell Morse’s investigation into a beachside serial killer that is complicated by his fracturing relationship with his wife, an unpredictable new partner, and his own slipping sanity.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/dark-my-light-1_1280x720.jpg",
+      "dates": "Mar 26, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1054333186.m3u8?s=c8408b8264d79e5603c9b2d9cabed2db71dfc6cf&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050641459.m3u8?s=44706354823e798a03719981697f0e5a91b06c93&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 707,
+      "name": "NEWBORN",
+      "rating": 0,
+      "description": "A beautiful tale following Maria and Nicholas, a young couple in Mexico City, after they receive the shocking news their newborn's sex cannot be determined due to a disorder. Nicholas advocates for following medical protocol, while Maria embarks on a journey of research and self-discovery. Their choice will shape the trajectory of their family's journey in ways they never imagined.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/new-born-1_1280x720.jpg",
+      "dates": "Mar 27, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1054333427.m3u8?s=4a79f8c68759b7d032da3d0274e23ee196d8aede&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050640920.m3u8?s=35244e5bc9cc6a9345a90ada34c27a458d8347a2&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 708,
+      "name": "PUSH",
+      "rating": 0,
+      "description": "Inherit the house, inherit the terror. Every family has skeletons, some want revenge. A woman journeys to a desert property she’s inherited in hopes of selling it to pay off her debts, erase her past mistakes, and start a new chapter. But she soon realizes she didn’t just inherit their property, but also their past sins and terror.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/dont-let-them-out-2_1280x720.jpg",
+      "dates": "Mar 28, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068443053.m3u8?s=b87b079bc0ca4da19b5fa0fa5d502a61fc0e169e&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050947508.m3u8?s=740cb214c136c8fa0b744e5c27fd8cf29a239181&oauth2_token_id=1520730810"
+    }
+  ],
+  "Shorts": [
+    {
+      "id": 801,
+      "name": "MY SHADOW",
+      "rating": 0,
+      "description": "An introspective meeting with puppet Pierrot motivates a sleeping girl ...",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/my-shadow-1_1280x720.jpg",
+      "dates": "Mar 26, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068443031.m3u8?s=8fbe8995d0d775d0bda5b87d77a5905955a16a67&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 802,
+      "name": "NO GOOD CALLS COME IN THE MIDDLE OF THE NIGHT",
+      "rating": 0,
+      "description": "After the sudden death of her estranged father, emotionally fragile Lilly and her husband Adam travel to a remote beach to gather supplies for a Samhain ritual that will allow her to speak to him one last time, only to awaken a malevolent force that plunges them into a chilling struggle for survival.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/no-good-calls-come-in-the-middle-of-the-night-1_1280x720.jpg",
+      "dates": "Mar 27, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068511043.m3u8?s=d28f9ab8fa5cd135f3a29b10868d2817181401a2&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 803,
+      "name": "SLAUGHTER SAUCE",
+      "rating": 0,
+      "description": "In a town where secrets simmer hotter than the pizza, one delivery boy uncovers a sinister recipe for chaos and murder with every knock on the door.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/slaughtersauce-1_1280x720.jpg",
+      "dates": "Mar 28, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1054333556.m3u8?s=cd777e7ef9f034fd9ffead55f5d76b87fbfd2fb0&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050947751.m3u8?s=7bcd129608da4d315ad7c39da868b1488232854f&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 804,
+      "name": "TRISKAIDEKAPHOBIA",
+      "rating": 0,
+      "description": "Two security guards gamble their futures on a mysterious elevator legend, where their deepest desires come at the ultimate risk of entrapment.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/triskaidekaphobia-1_1280x720.jpg",
+      "dates": "Mar 29, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1054333653.m3u8?s=bb46729a58fd4c32d9a43c67d6b0d96a33f5958a&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/1050947900.m3u8?s=825129b1485040832659392daf2954465bec5e66&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 805,
+      "name": "VIRGIN ",
+      "rating": 0,
+      "description": "A horror movie about the birth of Jesus Christ",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/virgin-1_1280x720.jpg",
+      "dates": "Mar 30, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1054657065.m3u8?s=8d41f3cffe6a68ba0b23caf4a893fa62ffa51f56&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    }
+  ],
+  "Genres": [
+    {
+      "id": 806,
+      "name": "CAKE",
+      "rating": 0,
+      "description": "Cake is about a cam girl and artist, Lindsay Dye, who has fought her whole life against stigma in a patriarchal society. The doc touches upon topics such as female empowerment and power of definition and is meant as a conversation starter on feminism, equality, and the male gaze. It is a highly visual doc involving striptease, crushed cakes, and a strong female lead, all shot on 8 mm.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/cake-1_1280x720.jpg",
+      "dates": "Mar 30, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068442945.m3u8?s=39ab19f4354f374d6bc677323d19f17da0e3fbf9&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 807,
+      "name": "DISNEY WOL: PAGE I SHAKING THE TREE",
+      "rating": 0,
+      "description": "In 1973 while visiting my Great Grandmother for the Summer in Florida, my siblings and I are promised a trip to “the happiest place on earth”, Disney World.  A sibling squabble breaks out at the breakfast table and plans are thwarted.  My Grandfather steps in to salvage the day, making for one of the most memorable days in my life!",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/disney-wol-1_1280x720.jpg",
+      "dates": "Mar 31, 2025 12:00 AM - Apr 1, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1053928423.m3u8?s=4d334d1c09a914d50343b535b98afff4fcf6776e&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 808,
+      "name": "ERROTATIBA",
+      "rating": 0,
+      "description": "Errotatiba is a non-fiction short film about the fragility of memory and the places that human beings create to safeguard it.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/errotatiba-1_1280x720.jpg",
+      "dates": "Apr 5, 2025 12:00 AM - Apr 6, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1056877221.m3u8?s=6f19762f499a9cd0de339f6b08f418b68b8853fb&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 809,
+      "name": "INSTITUTION",
+      "rating": 0,
+      "description": "A filmmaker contemplates his same-sex marriage, his parents’ “traditional” marriage, the Apollo 13 space mission, and a debate against a marriage equality bill.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/institution-1_1280x720.jpg",
+      "dates": "Apr 10, 2025 12:00 AM - Apr 11, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1053928546.m3u8?s=f3ffb0769e46772b390f00595566bc9b5406d4bd&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    }
+  ],
+  "Emotions": [
+    {
+      "id": 901,
+      "name": "GUN",
+      "rating": 0,
+      "description": "In a silent war for space, a little girl discovers an unexpected passage within the concrete wall, unveiling a world of hidden connections and untold possibilities.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/gun-1_1280x720.jpg",
+      "dates": "Mar 24, 2025 12:00 AM - Mar 31, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068891599.m3u8?s=45c2d0188006e330a0a422f22b0dbe829aabc94a&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 902,
+      "name": "JEFF HILLIARD - MY FACE",
+      "rating": 4.5,
+      "description": "Powerful executive who has an interesting way to relieve stress through creative role-play.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/jeff-hilliard-my-face-1_1280x720.jpg",
+      "dates": "Apr 15, 2025 12:00 AM - Apr 22, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1068511115.m3u8?s=42e9a8456c41e1cf3ae7e2e11fcfa5ee045c8352&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    },
+    {
+      "id": 903,
+      "name": "MEDITERRANEE",
+      "rating": 0,
+      "description": "“Méditerranée” takes you on a sun-soaked journey through the French Riviera, where nostalgia, vibrant colors, and the magic of the sea weave together in a serene animated daydream.",
+      "eventType": "SHOWCASE",
+      "eventImage": "https://creatics-assets-public.s3-us-west-1.amazonaws.com/images/showcase/2025/mediterranee-1_1280x720.jpg",
+      "dates": "Apr 25, 2025 12:00 AM - Apr 30, 2025 12:00 AM",
+      "type": "Streaming",
+      "streamingLink": "https://player.vimeo.com/external/1056877221.m3u8?s=6f19762f499a9cd0de339f6b08f418b68b8853fb&oauth2_token_id=1520730810",
+      "trailerLink": "https://player.vimeo.com/external/654603572.m3u8?s=2169f38a1bcfe013a4fed953792cd579baf1b820&oauth2_token_id=1520730810"
+    }
+  ]
+}

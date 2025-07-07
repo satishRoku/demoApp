@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="DetailsScreen" extends="Group"> 
+	<interface>
+		<field id="content" type="assocArray" alwaysNotify="true"/>
+		<field id="closeScreen" type="bool" alwaysNotify="true" />
+		<field id="closePlayer" type="bool" alwaysNotify="true" />
+		<field id="showPlayer" type="bool" alwaysNotify="true" value="false"/>
+	</interface>
+    <script type="text/brightscript" uri="detailsScreen.brs"/>
+	<children>
+		<Poster id="bgposter"  width="1920" height="1080" />
+		<Rectangle id="bgPlayerContainer" width="0" height="0" color="#000000" />
+		<Rectangle id="shadowRect" width="1920" height="1080" color="#000000" opacity="0.8" />
+		<Label id="title" text="Test title" color="0xFFFFFFFF" width="960" height="60" translation="[50, 50]" />
+		<Label id="description" text="Test description" width="1000" height="180" wrap="true" translation="[50, 150]" />
+		<LabelList  id = "buttonList" itemSize = "[180,60]" translation="[80, 350]" >
+			<ContentNode id = "buttonListContent" role = "content" >
+				<ContentNode title = "Watch Now" />
+				<ContentNode title = "Trailer" />
+			</ContentNode>
+		</LabelList>
+		<Group id="videoContainer" translation="[0, 0]" visible="false">
+			<Rectangle id="videoPlayerContainer" width="0" height="0" color="#000000" />
+			<Label id="videoTitle" text="Video Title" width="960" height="80" translation="[50, 50]" />
+		</Group>
+		
+    </children>
+</component>

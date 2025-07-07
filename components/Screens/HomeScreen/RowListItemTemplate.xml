@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="RowListItemTemplate" extends="Group">
+    <interface>
+      <field id="itemContent" type="node" onChange="OnContentSet" />
+      <field id="width" type="float" onChange="updateDimention"/>
+      <field id="height" type="float" onChange="updateDimention" />
+      <field id="focusPercent" type="float" onChange="enlargeItem"/>
+      <field id="rowFocusPercent" type="float" onChange="removeEnlaging"/>
+      <!-- <field id="rowHasFocus" type="float" onChange="showFocusIndicator"/> -->
+
+
+    </interface>
+    <script type="text/brightscript" uri="RowListItemTemplate.brs" />
+    <children>
+        <Rectangle id="selctionRect" color = "#dddddd" height="230" width="402" translation="[40 ,40]" visible="false"/>
+        <Rectangle id="baseRect" color = "#ffffff" height="0" width="0" translation="[40 ,40]">
+            <Poster
+                id="poster"
+                loadDisplayMode="scaleToFit"
+                width="390"
+                height="220"
+                loadWidth="390"
+                loadHeight="220"
+                loadSync="true"
+                translation="[4, 4]"
+            />
+            <Label
+                id="title"
+                color="#ffffff"
+                width="392"
+                height="30"
+                translation="[4, 234]"
+                />
+
+        </Rectangle>
+    </children>
+</component>

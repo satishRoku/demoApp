@@ -1,0 +1,23 @@
+title = POCApp
+major_version = 1
+minor_version = 0
+build_version = 1
+
+ui_resolutions = hd
+
+splash_min_time = 2000
+
+mm_icon_focus_sd = pkg: /images/mm_icon_focus_sd.png
+mm_icon_focus_hd = pkg: /images/mm_icon_focus_hd.png
+mm_icon_focus_fhd = pkg: /images/mm_icon_focus_fhd.png
+
+splash_screen_sd = pkg: /images/splash_screen_sd.png
+splash_screen_hd = pkg: /images/splash_screen_hd.png
+splash_screen_fhd = pkg: /images/splash_screen_fhd.png
+
+splash_rsg_optimization = 1
+
+rsg_version = 1.2
+
+supports_input_launch = 1
+
