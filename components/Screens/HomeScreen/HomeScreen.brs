@@ -9,7 +9,7 @@ sub init()
     m.videoTitle = m.top.FindNode("videoTitle")
 
     m.top.ObserveField("content", "buildUI")
-    m.scrollerView.translation = [60, 50]
+    m.scrollerView.translation = [60, 20]
     initRowList()
     m.images = []
     m.slideWidth = 1650
@@ -34,6 +34,13 @@ sub initRowList()
     m.rowList.translation = [80, 420]
     m.rowList.drawfocusfeedBack = false
 end sub
+
+
+sub setDeeplink(data as object)
+    ?"setDeeplink Functionm called"
+    m.top.deepLink = data
+end sub
+
 
 sub buildUI(event as object)
     data = event.getData()

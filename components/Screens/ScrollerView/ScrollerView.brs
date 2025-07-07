@@ -44,24 +44,19 @@ end sub
 
 sub onContentSet(event as object)
     imageData = event.getData()
-
     for i = 0 to imageData.count() - 1
-
-        for i = 0 to imageData.count() - 1
-            if (i mod 2 = 0)
-                timeOut = 6
-            else
-                timeOut = 10
-            end if
-            item = {
-                uri: imageData[i],
-                timeoutSeconds: timeOut
-            }
-            m.mediaItems.push(item)
-        end for
-
+        if (i mod 2 = 0)
+            timeOut = 6
+        else
+            timeOut = 10
+        end if
+        item = {
+            uri: imageData[i],
+            timeoutSeconds: timeOut
+        }
+        m.mediaItems.push(item)
     end for
-
+    
     'show the first poster
     showImageAtIndex(m.posterSecondary, 1)
     showImageAtIndex(m.posterPrimary, 0)
