@@ -7,20 +7,19 @@
   </interface>
   <script type="text/brightscript" uri="ScrollerView.brs"/>
   <children>
-    <Poster id="posterPrimary" width="1800" height="480" />
-    <Poster id="posterSecondary" width="1800" height="480" /> 
-    <Animation id="animationShowSecondary" repeat="false" control="stop" easeFunction="linear">
-      <FloatFieldInterpolator id="fadeInInterpolator1" key="[0.0, 1.0]" keyValue="[0.0, 1.0]" fieldToInterp="posterSecondary.opacity" />
-      <FloatFieldInterpolator id="fadeOutInterpolator1" key="[0.0, 1.0]" keyValue="[1.0, 0.0]" fieldToInterp="posterPrimary.opacity" />
-      <Vector2DFieldInterpolator id="slideInInterpolator1" key="[0.0, 1.0]" keyValue="[[1920,0], [0,0]]" fieldToInterp="posterSecondary.translation" />
-      <Vector2DFieldInterpolator id="slideOutInterpolator1" key="[0.0, 1.0]" keyValue="[[0,0], [-1920,0]]" fieldToInterp="posterPrimary.translation" />
-    </Animation>
-    <!--slide and fade the primary poster INTO view and the secondary poster OUT of view, -->
-    <Animation id="animationShowPrimary" repeat="false" control="stop" easeFunction="linear">
-      <FloatFieldInterpolator id="fadeInInterpolator2" key="[0.0, 1.0]" keyValue="[0.0, 1.0]" fieldToInterp="posterPrimary.opacity" />
-      <FloatFieldInterpolator id="fadeOutInterpolator2" key="[0.0, 1.0]" keyValue="[1.0, 0.0]" fieldToInterp="posterSecondary.opacity" />
-      <Vector2DFieldInterpolator id="slideInInterpolator2" key="[0.0, 1.0]" keyValue="[[1920,0], [0,0]]" fieldToInterp="posterPrimary.translation" />
-      <Vector2DFieldInterpolator id="slideOutInterpolator2" key="[0.0, 1.0]" keyValue="[[0,0], [-1920,0]]" fieldToInterp="posterSecondary.translation" />
-    </Animation>
+    
+      <MarkupGrid 
+      id = "scrollerGrid" 
+      itemComponentName = "MarkupGridItem" 
+      numColumns = "1" 
+      numRows = "1" 
+      itemSize = "[ 1160, 340 ]" 
+      itemSpacing = "[ 60, 60 ]" 
+      drawFocusFeedback = "false"
+      horizFocusAnimationStyle = "fixedFocus" />
+      <Timer
+        id="scrollTimer"
+        repeat="true"
+        duration="6" />
   </children>
 </component>

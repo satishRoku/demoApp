@@ -20,6 +20,10 @@ sub onHomeScreenVisibleChange(event as object)
 end sub
 
 function getStaticApiResponse() as object
+    ' serviceHandler = CreateObject("roSGNode", "ServerRequestHandler")
+    ' serviceHandler.uri = "pkg:/components/StaticApiResponse/showcaseMoviesUpdated.json"
+    ' serviceHandler.observeField("content", "onGetStaticResponse")
+    ' serviceHandler.control = "run"
     stringResponse = ReadAsciiFile("pkg:/components/StaticApiResponse/showcaseMoviesUpdated.json")
     if stringResponse = invalid
         print "Error: Unable to read staticApiResponse.json"
@@ -34,6 +38,11 @@ function getStaticApiResponse() as object
         end if
     end if
 end function
+
+sub onGetStaticResponse(event as object)
+    result = event.getData()
+    ? "result : "result
+end sub
 
 sub onItemSelected(event as object)
     rowItemSelected = event.getData()

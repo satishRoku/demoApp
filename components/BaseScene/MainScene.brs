@@ -1,11 +1,11 @@
 sub init()
-    m.top.backgroundURI = ""
     m.loader = m.top.FindNode("busySpinner")
     m.screenContainer = m.top.FindNode("screenContainer")
     ' m.top.observeField("deepLink", "onDeeplink")
     ' m.InputTask = createObject("roSgNode", "inputTask")
     ' m.InputTask.observefield("inputData", "handleInputEvent")
     ' m.InputTask.control = "RUN"
+    m.top.backgroundURI = ""
     m.top.backgroundColor = "#171717"
     InitLoader()
     m.screenStack = []

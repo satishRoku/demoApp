@@ -12,26 +12,27 @@
     </interface>
     <script type="text/brightscript" uri="RowListItemTemplate.brs" />
     <children>
-        <Rectangle id="selctionRect" color = "#dddddd" height="230" width="402" translation="[40 ,40]" visible="false"/>
-        <Rectangle id="baseRect" color = "#ffffff" height="0" width="0" translation="[40 ,40]">
+        
+        <Rectangle id="baseRect" color = "#ffffff" height="0" width="0" translation="[0 ,0]">
             <Poster
                 id="poster"
                 loadDisplayMode="scaleToFit"
-                width="390"
+                width="340"
                 height="220"
-                loadWidth="390"
+                loadWidth="340"
                 loadHeight="220"
                 loadSync="true"
-                translation="[4, 4]"
+                translation="[5, 5]"
             />
             <Label
                 id="title"
                 color="#ffffff"
-                width="392"
+                width="340"
                 height="30"
-                translation="[4, 234]"
+                translation="[6, 220]"
                 />
-
+                
         </Rectangle>
+       
     </children>
 </component>

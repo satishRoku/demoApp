@@ -9,7 +9,7 @@ sub init()
     m.videoTitle = m.top.FindNode("videoTitle")
 
     m.top.ObserveField("content", "buildUI")
-    m.scrollerView.translation = [60, 50]
+    m.scrollerView.translation = [60, 20]
     initRowList()
     m.images = []
     m.slideWidth = 1650
@@ -18,20 +18,19 @@ end sub
 
 sub initRowList()
     m.rowList.itemComponentName = "RowListItemTemplate"
-    m.rowList.itemSize = [1920, 350]
-    m.rowList.rowItemSize = [422, 340]
-    m.rowList.rowHeights = [380]
+    m.rowList.itemSize = [1280, 360]
+    m.rowList.rowItemSize = [340, 340]
+    m.rowList.rowHeights = [340]
 
     m.rowList.numRows = 1
     m.rowList.vertFocusAnimationStyle = "floatingFocus"
-    m.rowList.rowItemSpacing = [[10, 0]]
-    m.rowList.itemSpacing = [10, 10]
-
+    m.rowList.rowItemSpacing = [[20, 0]]
     m.rowList.rowSpacings = [10, 10, 10, 10, 10]
-    m.rowList.rowLabelOffset = [[0, 5]]
+    m.rowList.rowLabelOffset = [[0, 2]]
+    m.rowList.focusXOffset = [20, 0]
     m.rowList.showRowLabel = [true]
     m.rowList.inheritParentOpacity = false
-    m.rowList.translation = [80, 420]
+    m.rowList.translation = [60, 400]
     m.rowList.drawfocusfeedBack = false
 end sub
 
@@ -52,7 +51,7 @@ sub buildUI(event as object)
                     colNode.addFields({ "data": show, "image": show.eventImage })
                     colNode.id = show.id
                     colNode.title = show.name
-                    imagesData.push(show.eventImage)
+                    imagesData.push(show)
                 end for
             end for
             m.scrollerView.content = imagesData

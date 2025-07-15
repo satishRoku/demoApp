@@ -6,7 +6,7 @@
     <script type="text/brightscript" uri="HomeScreen.brs"/>
 	<children>
 		<Group id="homeContainer" >
-			<ScrollerView id="scrollerView" visible="true"/>
+			<ScrollerView id="scrollerView" />
 			<RowList id="rowList" />
 		</Group>
 		

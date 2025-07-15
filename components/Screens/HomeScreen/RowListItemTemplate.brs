@@ -3,7 +3,7 @@ sub Init()
     m.itemPoster = m.top.FindNode("poster")
     m.title = m.top.FindNode("title")
     m.baseRect = m.top.FindNode("baseRect")
-    m.selctionRect = m.top.FindNode("selctionRect")
+
     m.itemPoster.observeField("loadStatus", "onImageStateChange")
 end sub
 
@@ -12,7 +12,7 @@ sub OnContentSet() ' invoked when item metadata retrieved
     if content = invalid then return
     m.itemPoster.uri = content.image
     m.title.text = content.title
-    m.title.font.size = 25
+    m.title.font.size = 12
 
 end sub
 
@@ -25,19 +25,16 @@ end sub
 
 sub enlargeItem(event as object)
     focusPercent = event.getData()
+    ? "enlargeItem"
     if focusPercent > 0.05
         itemHasFocus = true
-        scale = 1 + (m.top.focusPercent * 0.15)
+        scale = 1 + (m.top.focusPercent * 0.1)
         m.baseRect.scale = [scale, scale]
         m.baseRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-
-        m.selctionRect.scale = [scale, scale]
-        m.selctionRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-
     else
         itemHasFocus = false
     end if
-    showFocusIndicator(itemHasFocus)
+    ' showFocusIndicator(itemHasFocus)
 end sub
 
 sub removeEnlaging(event as object)
@@ -46,32 +43,18 @@ sub removeEnlaging(event as object)
         scale = 1
         m.baseRect.scale = [scale, scale]
         m.baseRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-        m.selctionRect.scale = [scale, scale]
-        m.selctionRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-        m.selctionRect.visible = false
-    else
-        m.selctionRect.visible = false
     end if
 end sub
 
-sub showFocusIndicator(rowhasFocus = true)
+sub showFocusedRow(rowhasFocus = true)
     scale = 1
-    scale = 1 + (m.top.focusPercent * 0.15)
+    scale = scale + (m.top.focusPercent * 0.1)
     if rowhasFocus then
         m.baseRect.scale = [scale, scale]
         m.baseRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-
-        m.selctionRect.scale = [scale, scale]
-        m.selctionRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-        ? "image loading status ::= "m.itemPoster.loadStatus
-        m.selctionRect.visible = true
-
     else
         m.baseRect.scale = [scale, scale]
         m.baseRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-        m.selctionRect.scale = [scale, scale]
-        m.selctionRect.scaleRotateCenter = [m.top.width / 2, m.top.height / 2]
-        m.selctionRect.visible = false
     end if
 end sub
 

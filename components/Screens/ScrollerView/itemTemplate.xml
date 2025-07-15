@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "MarkupGridItem" extends = "Group" >
+ 
+  <interface> 
+    <field id = "itemContent" type = "node" onChange = "showcontent"/>
+    <!-- <field id = "focusPercent" type = "float" onChange = "showfocus"/>  -->
+  </interface>
+ 
+  <script type = "text/brightscript" uri="itemTemplate.brs"/>
+  <children >
+    <Poster 
+      id = "itemPoster" 
+      translation = "[ 10, 10 ]" 
+      loadWidth="1160"
+      loadHeight="340"
+      width = "1160" 
+      height = "340" 
+      >
+
+      <Rectangle 
+        id = "itemMask" 
+        color = "0x000000FF" 
+        opacity = "0.75" 
+        width = "1160" 
+        height = "340" 
+        />
+        <Label
+            id="title"
+            color="#ffffff"
+            width="700"
+            height="40"
+            font = "font:MediumBoldSystemFont"
+            translation="[40, 30]"
+            />
+         <Label
+            id="description"
+            color="#ffffff"
+            width="700"
+            height="150"
+            wrap="true"
+            translation="[40, 80]"
+            />    
+    </Poster>
+
+  </children>
+
+</component>
