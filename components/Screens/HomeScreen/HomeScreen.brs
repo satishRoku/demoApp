@@ -34,6 +34,13 @@ sub initRowList()
     m.rowList.drawfocusfeedBack = false
 end sub
 
+
+sub setDeeplink(data as object)
+    ?"setDeeplink Functionm called"
+    m.top.deepLink = data
+end sub
+
+
 sub buildUI(event as object)
     data = event.getData()
     if m.top.getScene().deepLink <> invalid then
